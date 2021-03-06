@@ -1,0 +1,259 @@
+.section1_bg {
+    background-color: white;
+    background-image: url('/images/pastory/section1_bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section1 h1 {
+    width: auto;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.section1 p {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 32px;
+    max-width: 18rem;
+    margin-top: 15px;
+}
+
+.download_from_mac_app_store {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.info {
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+}
+
+.section2 {
+    width: 100%;
+}
+
+.section2 img {
+    width: 100%;
+    height: auto;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section3 ul {
+    width: 35%;
+    height: auto;
+    list-style: none;
+}
+
+.section3 ul li {
+    margin: 20px auto;
+    font-weight: 500;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.section3 div {
+    height: 500px;
+    flex: 1;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: auto 550px;
+    background-position: left top;
+    background-image: url('/images/pastory/select_multiple_items_img.png');
+}
+
+.section4 div {
+    background-position: right top;
+    background-image: url('/images/pastory/plain_text_img.png');
+}
+
+.section5 {
+    display: grid;
+    height: auto;
+    padding: 10px 40px 40px 40px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section5 div {
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.section5 h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    align-self: center;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section5 div h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.section5 div p {
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.indicator {
+    color: #999;
+}
+
+.selected_indicator {
+    color: #000;
+}
+
+.section {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.author_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.author_container p {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.author_container p a {
+    color: black;
+}
+
+@media (max-width: 30rem) {
+    .section3 div {
+        height: 400px !important;
+        background-size: auto 400px !important;
+    }
+
+    .section5 div {
+        padding: 10px 0 !important;
+    }
+}
+
+@media (max-width: 45rem) {
+
+    .section {
+        flex-direction: row;
+    }
+
+    /** Section 1 **/
+    .section1_bg {
+        background-image: url('/images/pastory/section1_mobile_bg.png');
+    }
+
+    .section1 {
+        align-items: center;
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        -moz-backdrop-filter: blur(4px);
+        -ms-backdrop-filter: blur(4px);
+        -o-backdrop-filter: blur(4px);
+    }
+
+    .section1 p {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .download_from_mac_app_store {
+        display: none;
+    }
+
+    .info {
+        margin-top: 10px;
+    }
+
+    .section3 {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .section3 ul {
+        width: 100%;
+        overflow-x: scroll;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        scroll-snap-type: mandatory;
+        margin-top: 30px;
+        scrollbar-width: none;
+        display: table-row;
+        padding: 0 30px;
+    }
+
+    .section3 ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .section3 ul li {
+        display: table-cell;
+        margin: 0;
+        padding: 0 20px;
+        font-size: 28px;
+    }
+
+    .section3 div {
+        width: 100%;
+        height: 450px;
+        background-size: auto 500px;
+        margin-top: 0;
+        margin-left: 20px;
+        flex: auto;
+    }
+
+    .section4 {
+        padding-bottom: 20px;
+    }
+
+    .section4 div {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .section5 {
+        grid-template-columns: 1fr;
+    }
+
+    .section5 div {
+        padding: 10px 5px;
+    }
+
+    .section5 h1 {
+        grid-column-end: 1;
+    }
+}

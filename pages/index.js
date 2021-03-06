@@ -1,65 +1,49 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Foot from '../components/foot'
 import styles from '../styles/Home.module.css'
+import pastoryStyles from '../styles/Pastory.module.css'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    // const router = useRouter();
+    // <ul>
+    //     <li className={router.pathname == '/' ? 'active' : ''}>
+    //       <Link href='/'>home</Link>
+    //     </li>
+    //     <li className={router.pathname == '/about' ? 'active' : ''}>
+    //       <Link href='/about'>about</Link>
+    //     </li>
+    //   </ul>
+    return (
+        <main>
+            <Head>
+                <title>BinaryEgg</title>
+            </Head>
+            <div className={styles.header}>
+                <span id='text_yellow_underline'>Home</span>
+                <span>Blog</span>
+            </div>
+            <div className={styles.content_container}>
+                <div className={styles.intro_container}>
+                    <h1>👋Hi there, this is <span id='text_yellow_underline'>BinaryEgg</span>.</h1>
+                    <p>We create <del>tools</del> apps.</p>
+                </div>
+                <Link href='/app/pastory'>
+                    <div className={pastoryStyles.section1_bg}>
+                        <div className={`${pastoryStyles.section1} ${styles.pastory_container}`}>
+                            <img src='/images/pastory/icon.png' alt='Pastory Icon' className={pastoryStyles.icon}
+                                 width='120px' height='120px'/>
+                            <h1><span id="text_yellow_underline">Pastory</span></h1>
+                            <p>A new way to manage your clipboard history.</p>
+                            <img className={pastoryStyles.download_from_mac_app_store}
+                                 src='/images/download_from_mac_app_store.svg' alt='Download from mac app store'
+                                 width='160px' height='40px'/>
+                            <span className={pastoryStyles.info}>Require macOS 10.14 or later</span>
+                        </div>
+                    </div>
+                </Link>
+            </div>
+            <Foot/>
+        </main>
+    )
 }
