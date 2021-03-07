@@ -20,12 +20,12 @@ a {
   text-decoration: none;
 }
 
-Link {
-  cursor: pointer;
-}
-
 * {
   box-sizing: border-box;
+}
+
+#pointer {
+  cursor: pointer;
 }
 
 #text_yellow_underline {

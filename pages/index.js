@@ -1,35 +1,24 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Foot from '../components/foot'
+import Header from '../components/header'
 import styles from '../styles/Home.module.css'
 import pastoryStyles from '../styles/Pastory.module.css'
 
 export default function Home() {
-    // const router = useRouter();
-    // <ul>
-    //     <li className={router.pathname == '/' ? 'active' : ''}>
-    //       <Link href='/'>home</Link>
-    //     </li>
-    //     <li className={router.pathname == '/about' ? 'active' : ''}>
-    //       <Link href='/about'>about</Link>
-    //     </li>
-    //   </ul>
     return (
         <main>
             <Head>
                 <title>BinaryEgg</title>
             </Head>
-            <div className={styles.header}>
-                <span id='text_yellow_underline'>Home</span>
-                <span>Blog</span>
-            </div>
+            <Header/>
             <div className={styles.content_container}>
                 <div className={styles.intro_container}>
                     <h1>👋Hi there, this is <span id='text_yellow_underline'>BinaryEgg</span>.</h1>
                     <p>We create <del>tools</del> apps.</p>
                 </div>
                 <Link href='/app/pastory'>
-                    <div className={pastoryStyles.section1_bg}>
+                    <div id='pointer' className={pastoryStyles.section1_bg}>
                         <div className={`${pastoryStyles.section1} ${styles.pastory_container}`}>
                             <img src='/images/pastory/icon.webp' alt='Pastory Icon' className={pastoryStyles.icon}
                                  width='120px' height='120px'/>

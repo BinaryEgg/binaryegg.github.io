@@ -10,8 +10,13 @@
     "deploy": "next build && next export && touch out/.nojekyll"
   },
   "dependencies": {
-    "next": "10.0.0",
+    "gray-matter": "^4.0.2",
+    "next": "^10.0.8",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3"
   }
 }
