@@ -25,7 +25,7 @@ export default function Pastory() {
     const setItemAndImage = (lastSelectedItem, currentSelectedItem, imageName, imageElement) => {
         lastSelectedItem.style.color = '#999'
         currentSelectedItem.style.color = '#000'
-        imageElement.style.backgroundImage = "url('/images/pastory/" + imageName + ".png')"
+        imageElement.style.backgroundImage = "url('/images/pastory/" + imageName + ".webp')"
         currentSelectedItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' })
     }
     return (
@@ -38,7 +38,7 @@ export default function Pastory() {
             </Head>
             <div className={styles.section1_bg}>
                 <div className={`${styles.section1} ${styles.pastory_container}`}>
-                    <img src='/images/pastory/icon.png' alt='Pastory Icon' className={styles.icon} width='120px'
+                    <img src='/images/pastory/icon.webp' alt='Pastory Icon' className={styles.icon} width='120px'
                          height='120px'/>
                     <h1><span id='text_yellow_underline'>Pastory</span></h1>
                     <p>A new way to manage your clipboard history.</p>
@@ -48,7 +48,7 @@ export default function Pastory() {
                 </div>
             </div>
             <div className={`${styles.section2} ${styles.section}`}>
-                <img src='/images/pastory/section2_bg.png'/>
+                <img src='/images/pastory/section2_bg.webp'/>
             </div>
             <div className={`${styles.section3} ${styles.section}`}>
                 <ul>

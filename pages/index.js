@@ -31,7 +31,7 @@ export default function Home() {
                 <Link href='/app/pastory'>
                     <div className={pastoryStyles.section1_bg}>
                         <div className={`${pastoryStyles.section1} ${styles.pastory_container}`}>
-                            <img src='/images/pastory/icon.png' alt='Pastory Icon' className={pastoryStyles.icon}
+                            <img src='/images/pastory/icon.webp' alt='Pastory Icon' className={pastoryStyles.icon}
                                  width='120px' height='120px'/>
                             <h1><span id="text_yellow_underline">Pastory</span></h1>
                             <p>A new way to manage your clipboard history.</p>

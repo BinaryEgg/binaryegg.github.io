@@ -1,6 +1,6 @@
 .section1_bg {
     background-color: white;
-    background-image: url('/images/pastory/section1_bg.png');
+    background-image: url('/images/pastory/section1_bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,12 +79,12 @@
     background-repeat: no-repeat;
     background-size: auto 550px;
     background-position: left top;
-    background-image: url('/images/pastory/select_multiple_items_img.png');
+    background-image: url('/images/pastory/select_multiple_items_img.webp');
 }
 
 .section4 div {
     background-position: right top;
-    background-image: url('/images/pastory/plain_text_img.png');
+    background-image: url('/images/pastory/plain_text_img.webp');
 }
 
 .section5 {
@@ -173,7 +173,7 @@
 
     /** Section 1 **/
     .section1_bg {
-        background-image: url('/images/pastory/section1_mobile_bg.png');
+        background-image: url('/images/pastory/section1_mobile_bg.webp');
     }
 
     .section1 {
