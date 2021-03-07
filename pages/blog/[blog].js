@@ -4,7 +4,7 @@ import Markdown from '../../components/markdown'
 import Foot from '../../components/foot'
 import Head from "next/head";
 import styles from '../../styles/BlogArticle.module.css'
-import Utils from '../../utils/Utils'
+import Utils from '../../utils/utils'
 import fs from "fs";
 
 function BlogTemplate({content, title, description, date}) {
