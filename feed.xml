@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>BinaryEgg - Blog RSS Feed</title>
+        <link>https://binaryegg.com/feed.xml</link>
+        <description>BinaryEgg Blog</description>
+        <lastBuildDate>Sun, 07 Mar 2021 12:56:58 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Next.js using Feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Hi there, This is BinaryEgg]]></title>
+            <link>https://binaryegg.com/blog/hi-there-this-is-binaryegg.md</link>
+            <guid>https://binaryegg.com/blog/hi-there-this-is-binaryegg.md</guid>
+            <pubDate>Sun, 07 Mar 2021 02:00:00 GMT</pubDate>
+            <description><![CDATA[Thank you for visiting.]]></description>
+            <content:encoded><![CDATA[<p>Here we are going to post news about us.</p>
+<p>You can contact us via <a href="mailto:contact@binaryegg.com">email</a>, feel free to do it.</p>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
