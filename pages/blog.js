@@ -50,7 +50,7 @@ export const getStaticProps = async () => {
             },
         };
     }).sort(function (o1, o2) {
-        return o1.matter.date.localeCompare(o2.matter.date)
+        return -o1.matter.date.localeCompare(o2.matter.date)
     });
 
     return {

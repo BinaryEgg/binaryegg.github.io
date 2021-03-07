@@ -5,6 +5,7 @@ import Foot from '../../components/foot'
 import Head from "next/head";
 import styles from '../../styles/BlogArticle.module.css'
 import Utils from '../../utils/Utils'
+import fs from "fs";
 
 function BlogTemplate({content, title, description, date}) {
     return (
@@ -26,15 +27,22 @@ function BlogTemplate({content, title, description, date}) {
     )
 }
 
-BlogTemplate.getInitialProps = async (context) => {
-    const {blog} = context.query
-    const content = await import(`../../content/blogs/${blog}.md`)
+export const getStaticPaths = async () => {
+    const files = fs.readdirSync(`${process.cwd()}/content/blogs`);
+    const paths = files.map(file => `/blog/${file.replace('.md', '')}`)
+    return {paths, fallback: false}
+}
+
+export const getStaticProps = async ({params}) => {
+    const content = await import(`../../content/blogs/${params.blog}.md`)
     const data = matter(content.default)
     return {
-        content: data.content,
-        title: data.data.title,
-        description: data.data.description,
-        date: Utils.formatDate(data.data.date)
+        props: {
+            content: data.content,
+            title: data.data.title,
+            description: data.data.description,
+            date: Utils.formatDate(data.data.date)
+        }
     }
 }
 
