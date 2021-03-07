@@ -33,7 +33,7 @@ const getPosts = (lang) => {
                 title: data.title,
                 description: data.description,
                 content,
-                slug,
+                slug: slug.replace(".md", ""),
                 date: data.date
             }
         })
