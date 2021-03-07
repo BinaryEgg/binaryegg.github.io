@@ -1,6 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import Head from "next/Head";
+import Head from "next/head";
 import Link from 'next/link';
 import Foot from '../components/foot'
 import Header from '../components/header'
