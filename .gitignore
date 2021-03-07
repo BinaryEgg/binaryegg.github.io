@@ -35,3 +35,6 @@ yarn-error.log*
 
 # Idea
 .idea
+
+#feed
+public/feed.xml
