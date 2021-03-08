@@ -6,6 +6,7 @@ import Head from "next/head";
 import styles from '../../styles/BlogArticle.module.css'
 import Utils from '../../utils/utils'
 import fs from "fs";
+import Link from "next/link";
 
 function BlogTemplate({content, title, description, date}) {
     return (
@@ -21,6 +22,9 @@ function BlogTemplate({content, title, description, date}) {
                         className={`${styles.description} ${description == null ? styles.hidden : ''}`}>{description}</div>
                     <Markdown source={content}/>
                 </article>
+                <div className={styles.return_to_blog}>
+                    <p>Back to <Link href='/blog'><a id='text_yellow_underline'>Blog</a></Link></p>
+                </div>
             </div>
             <Foot/>
         </main>

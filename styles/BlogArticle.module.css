@@ -1,6 +1,5 @@
 .container {
     width: 100%;
-    padding: 0 18px;
     margin-bottom: 30px;
     font-size: 1.2rem;
 }
@@ -23,6 +22,21 @@
     color: #555;
 }
 
+.return_to_blog {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.return_to_blog a {
+    color: black;
+}
+
 .hidden {
     display: none;
+}
+
+@media (max-width: 55rem) {
+    .container {
+        padding: 0 18px;
+    }
 }
