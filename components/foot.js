@@ -1,5 +1,5 @@
 import styles from '../styles/components/foot.module.css'
-import Link from "next/link";
+import Link from "next/link"
 
 const Foot = () => (
     <div className={styles.container}>

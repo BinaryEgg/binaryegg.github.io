@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import CustomHead from '../../components/custom-head'
 import Link from 'next/link'
-import Foot from '../../components/foot';
+import Foot from '../../components/foot'
 import styles from '../../styles/Pastory.module.css'
 
 export default function Pastory() {
@@ -33,9 +33,7 @@ export default function Pastory() {
             <style global jsx>{`body {
               background-color: #333;
             }`}</style>
-            <Head>
-                <title>Pastory</title>
-            </Head>
+            <CustomHead title="Pastory"/>
             <div className={styles.section1_bg}>
                 <div className={`${styles.section1} ${styles.pastory_container}`}>
                     <img src='/images/pastory/icon.webp' alt='Pastory Icon' className={styles.icon} width='120px'

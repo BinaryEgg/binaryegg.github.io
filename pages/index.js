@@ -1,5 +1,5 @@
-import Head from 'next/head'
 import Link from 'next/link'
+import CustomHead from '../components/custom-head'
 import Foot from '../components/foot'
 import Header from '../components/header'
 import styles from '../styles/Home.module.css'
@@ -8,9 +8,7 @@ import pastoryStyles from '../styles/Pastory.module.css'
 export default function Home() {
     return (
         <main>
-            <Head>
-                <title>BinaryEgg</title>
-            </Head>
+            <CustomHead/>
             <Header/>
             <div className={styles.content_container}>
                 <div className={styles.intro_container}>

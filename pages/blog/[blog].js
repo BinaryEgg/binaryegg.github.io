@@ -2,18 +2,16 @@ import React from 'react'
 import matter from 'gray-matter'
 import Markdown from '../../components/markdown'
 import Foot from '../../components/foot'
-import Head from "next/head";
+import CustomHead from '../../components/custom-head'
 import styles from '../../styles/BlogArticle.module.css'
 import Utils from '../../utils/utils'
-import fs from "fs";
-import Link from "next/link";
+import fs from "fs"
+import Link from "next/link"
 
 function BlogTemplate({content, title, description, date}) {
     return (
         <main>
-            <Head>
-                <title>{title}</title>
-            </Head>
+            <CustomHead title={title}/>
             <div className={styles.container}>
                 <article key={title}>
                     <h1>{title}</h1>

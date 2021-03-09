@@ -1,6 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import Head from "next/head";
+import CustomHead from '../components/custom-head'
 import Link from 'next/link';
 import Foot from '../components/foot'
 import Header from '../components/header'
@@ -10,7 +10,7 @@ import Utils from '../utils/utils'
 function Blog({posts}) {
     return (
         <main>
-            <Head><title>Blog</title></Head>
+            <CustomHead title="Blog"/>
             <Header/>
             <div className={styles.container}>
                 {posts.map(({slug, matter: {title, description, date}}) => (

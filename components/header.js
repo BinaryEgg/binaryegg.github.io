@@ -1,5 +1,5 @@
-import styles from "../styles/components/header.module.css";
-import {useRouter} from "next/router";
+import styles from "../styles/components/header.module.css"
+import {useRouter} from "next/router"
 import Link from "next/link"
 
 export default function Header() {

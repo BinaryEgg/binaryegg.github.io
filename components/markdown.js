@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import ReactMarkdown from 'react-markdown';
+import PropTypes from 'prop-types'
+import ReactMarkdown from 'react-markdown'
 import CodeBlock from './code-block'
 
 export default function Markdown({ source }) {

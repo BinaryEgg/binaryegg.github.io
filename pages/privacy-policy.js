@@ -1,14 +1,12 @@
-import Head from 'next/head'
-import Foot from '../components/foot';
+import CustomHead from '../components/custom-head'
+import Foot from '../components/foot'
 import styles from '../styles/PrivacyPolicy.module.css'
-import Link from "next/link";
+import Link from "next/link"
 
 export default function PrivacyPolicy() {
     return (
         <main>
-            <Head>
-                <title>Privacy Policy</title>
-            </Head>
+            <CustomHead title="Privacy Policy"/>
             <div className={styles.content}>
                 <h1>Privacy Policy</h1>
                 <p>Last updated March 05, 2021</p>
