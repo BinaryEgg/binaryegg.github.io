@@ -10,7 +10,7 @@ export default function CustomHead({title}) {
             <meta name="author" content="BinaryEgg"/>
 
             <link rel="shortcut icon" href="/favicon.ico"/>
-            <link rel="apple-touch-icon" href="/favicon/favicon-114.png"/>
+            <link rel="apple-touch-icon" href="/favicon/favicon-140.png"/>
 
             <title>{title === undefined ? 'BinaryEgg' : title}</title>
         </Head>
