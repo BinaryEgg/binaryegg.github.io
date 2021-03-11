@@ -4,7 +4,7 @@
         <title>BinaryEgg - Blog RSS Feed</title>
         <link>https://binaryegg.com/feed.xml</link>
         <description>BinaryEgg Blog</description>
-        <lastBuildDate>Tue, 09 Mar 2021 12:58:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Mar 2021 14:28:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed</generator>
         <language>en</language>
