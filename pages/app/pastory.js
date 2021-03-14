@@ -10,7 +10,7 @@ export default function Pastory() {
     let section4SelectedItem;
     const section3Click = (e) => {
         if (section3SelectedItem === undefined) {
-            section3SelectedItem = document.getElementById('select_multiple_items_img')
+            section3SelectedItem = document.getElementById('search_command_img')
         }
         setItemAndImage(section3SelectedItem, e.target, e.target.id, document.getElementById(section3ImgId))
         section3SelectedItem = e.target
@@ -50,14 +50,15 @@ export default function Pastory() {
             </div>
             <div className={`${styles.section3} ${styles.section}`}>
                 <ul>
-                    <li id="select_multiple_items_img" onClick={section3Click} className={styles.selected_indicator}>Select
-                        Multiple<br/> Items
-                    </li>
+                    <li id="search_command_img" onClick={section3Click} className={styles.selected_indicator}>Search Command</li>
                     <li id="quick_switch_pasteboard_img" onClick={section3Click} className={styles.indicator}>Quick
                         Switch<br/> Clipboard
                     </li>
                     <li id="move_to_clipboard" onClick={section3Click}
                         className={styles.indicator}>Move to Another<br/> Clipboard
+                    </li>
+                    <li id="select_multiple_items_img" onClick={section3Click} className={styles.indicator}>
+                        Multiple Items<br/> Support
                     </li>
                 </ul>
                 <div id={section3ImgId}/>
