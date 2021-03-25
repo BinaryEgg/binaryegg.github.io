@@ -17,7 +17,8 @@ function BlogTemplate({content, title, description, date}) {
                     <h1>{title}</h1>
                     <span>{date}</span>
                     <div
-                        className={`${styles.description} ${description == null ? styles.hidden : ''}`}>{description}</div>
+                        className={`${styles.description} ${description == null ? styles.hidden : ''}`}
+                        dangerouslySetInnerHTML={{__html: description}}/>
                     <Markdown source={content}/>
                 </article>
                 <div className={styles.return_to_blog}>

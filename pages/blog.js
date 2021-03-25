@@ -18,7 +18,7 @@ function Blog({posts}) {
                         <Link href={`/blog/${slug}`}>
                             <article>
                                 <h3>{title}</h3>
-                                <p>{description}</p>
+                                <p dangerouslySetInnerHTML={{__html: description}}/>
                                 <span>{date}</span>
                             </article>
                         </Link>
