@@ -50,7 +50,7 @@ export default function Pastory() {
             </div>
             <div className={`${styles.section3} ${styles.section}`}>
                 <ul>
-                    <li id="search_command_img" onClick={section3Click} className={styles.selected_indicator}>Search<br/> Command</li>
+                    <li id="search_command_img" onClick={section3Click} className={styles.selected_indicator}>Search<br/> Filter</li>
                     <li id="quick_switch_pasteboard_img" onClick={section3Click} className={styles.indicator}>Quick
                         Switch<br/> Clipboard
                     </li>
