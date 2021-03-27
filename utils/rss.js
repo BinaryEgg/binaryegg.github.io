@@ -5,6 +5,7 @@ const matter = require('gray-matter')
 const remark = require('remark')
 const html = require('remark-html')
 const emoji = require('remark-emoji')
+const gfm = require('remark-gfm')
 
 const POSTS_DIR = join(process.cwd(), 'content/blogs')
 const LOCALES = ['en']
@@ -17,6 +18,7 @@ const TWITTER_USERNAME = ''
 const markdownToHtml = (markdown) => remark()
     .use(html)
     .use(emoji)
+    .use(gfm)
     .processSync(markdown)
     .toString()
 
