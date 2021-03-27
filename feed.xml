@@ -4,7 +4,7 @@
         <title>BinaryEgg - Blog RSS Feed</title>
         <link>https://binaryegg.com/feed.xml</link>
         <description>BinaryEgg Blog</description>
-        <lastBuildDate>Sat, 27 Mar 2021 06:09:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Mar 2021 06:46:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed</generator>
         <language>en</language>
@@ -15,27 +15,88 @@
             <pubDate>Thu, 25 Mar 2021 06:00:00 GMT</pubDate>
             <description><![CDATA[1.Keyboard Shortcut.<br/>2.Why Does Pastory Need Accessibility?<br/>3.How to Turn On or Turn Off Accessibility?]]></description>
             <content:encoded><![CDATA[<h2>Keyboard Shortcut</h2>
-<p>| Action                  | Shortcut             | Customizable  |
-| :---------------------- | :------------------- |:------------- |
-| Show Pastory            | ⌥Option + Space      | YES           |
-| Quick Paste             | ⌘Command + 1...9.0   | YES           |
-| Switch Clipboard        | ⇧Shift + Tab         | YES           |
-| Paste                   | Enter                | NO            |
-| Paste as Plain Text     | ⇧Shift + Enter       | YES           |
-| Copy                    | ⌘Command + C         | NO            |
-| Cut                     | ⌘Command + X         | NO            |
-| Delete                  | ⌃Control + Delete    | NO            |
-| Move to First           | ⌃Control + F         | NO            |
-| Svae to File            | ⌘Command + S         | NO            |
-| Add New Clipboard       | ⌘Command + A         | NO            |
-| Select First Item       | ⌘Command + UpArrow   | NO            |
-| Select Last Item        | ⌘Command + DownArrow | NO            |</p>
+<table>
+<thead>
+<tr>
+<th align="left">Action</th>
+<th align="left">Shortcut</th>
+<th align="left">Customizable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Show Pastory</td>
+<td align="left">⌥Option + Space</td>
+<td align="left">YES</td>
+</tr>
+<tr>
+<td align="left">Quick Paste</td>
+<td align="left">⌘Command + 1...9.0</td>
+<td align="left">YES</td>
+</tr>
+<tr>
+<td align="left">Switch Clipboard</td>
+<td align="left">⇧Shift + Tab</td>
+<td align="left">YES</td>
+</tr>
+<tr>
+<td align="left">Paste</td>
+<td align="left">Enter</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Paste as Plain Text</td>
+<td align="left">⇧Shift + Enter</td>
+<td align="left">YES</td>
+</tr>
+<tr>
+<td align="left">Copy</td>
+<td align="left">⌘Command + C</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Cut</td>
+<td align="left">⌘Command + X</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Delete</td>
+<td align="left">⌃Control + Delete</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Move to First</td>
+<td align="left">⌃Control + F</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Svae to File</td>
+<td align="left">⌘Command + S</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Add New Clipboard</td>
+<td align="left">⌘Command + A</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Select First Item</td>
+<td align="left">⌘Command + UpArrow</td>
+<td align="left">NO</td>
+</tr>
+<tr>
+<td align="left">Select Last Item</td>
+<td align="left">⌘Command + DownArrow</td>
+<td align="left">NO</td>
+</tr>
+</tbody>
+</table>
 <h2>Why Does Pastory Need Accessibility?</h2>
 <p>Accessibility is an Apple setting that allows applications to using some system features.</p>
 <p>It allows Pastory to paste content directly to current app.</p>
 <h2>How to Turn On or Turn Off Accessibility?</h2>
 <p>If you are using Pastory, you may see this below.</p>
-<img src="/images/pastory/turn_on_accessibility.webp" width="300"/>
+<img src="https://binaryegg.com/images/pastory/turn_on_accessibility.webp" width="300"/>
 <p>Click Turn On Accessibility to allow Pastory Paste directly to current app.</p>
 <p>Steps to turn on accessibility:</p>
 <ol>
