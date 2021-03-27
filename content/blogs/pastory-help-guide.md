@@ -34,7 +34,7 @@ It allows Pastory to paste content directly to current app.
 
 If you are using Pastory, you may see this below.
 
-<img src="/images/pastory/turn_on_accessibility.webp" width="300"/>
+<img src="https://binaryegg.com/images/pastory/turn_on_accessibility.webp" width="300"/>
 
 Click Turn On Accessibility to allow Pastory Paste directly to current app.
 
