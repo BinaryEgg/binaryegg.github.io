@@ -6,6 +6,7 @@ const remark = require('remark')
 const html = require('remark-html')
 const emoji = require('remark-emoji')
 const gfm = require('remark-gfm')
+const toc = require('remark-toc')
 
 const POSTS_DIR = join(process.cwd(), 'content/blogs')
 const LOCALES = ['en']
@@ -19,6 +20,7 @@ const markdownToHtml = (markdown) => remark()
     .use(html)
     .use(emoji)
     .use(gfm)
+    .use(toc)
     .processSync(markdown)
     .toString()
 
