@@ -95,12 +95,20 @@ export default function Pastory() {
                     <p>Create your own clipboard and move copied item to it.</p>
                 </div>
                 <div>
-                    <h2>Shortcuts Support</h2>
-                    <p>Full shortcut key support.</p>
+                    <h2>Keyboard Shortcut</h2>
+                    <p>Shortcut keys are supported for most operations.</p>
                 </div>
                 <div>
                     <h2>Data Safety</h2>
                     <p>Data is stored only on your local device.</p>
+                </div>
+                <div>
+                    <h2>Touch Bar Support</h2>
+                    <p>Using it to add filter, and switch clipboard.</p>
+                </div>
+                <div>
+                    <h2>Dark Mode</h2>
+                    <p>Automatic following system switching.</p>
                 </div>
             </div>
             <div className={`${styles.author_container} ${styles.section}`}>
