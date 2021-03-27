@@ -24,7 +24,7 @@ export default function Home() {
                             <p>A new way to manage your clipboard history.</p>
                             <img className={pastoryStyles.download_from_mac_app_store}
                                  src='/images/download_from_mac_app_store.svg' alt='Download from mac app store'
-                                 width='160px' height='40px'/>
+                                 width='180px'/>
                             <span className={pastoryStyles.info}>Require macOS 10.14 or later</span>
                         </div>
                     </div>

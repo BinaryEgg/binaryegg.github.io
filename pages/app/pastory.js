@@ -41,7 +41,7 @@ export default function Pastory() {
                     <h1><span id='text_yellow_underline'>Pastory</span></h1>
                     <p>A new way to manage your clipboard history.</p>
                     <img className={styles.download_from_mac_app_store} src='/images/download_from_mac_app_store.svg'
-                         alt='Download from mac app store' width='160px' height='40px'/>
+                         alt='Download from mac app store' width='180px'/>
                     <span className={styles.info}>Require macOS 10.14 or later</span>
                 </div>
             </div>
