@@ -4,7 +4,7 @@
         <title>BinaryEgg - Blog RSS Feed</title>
         <link>https://binaryegg.com/feed.xml</link>
         <description>BinaryEgg Blog</description>
-        <lastBuildDate>Sat, 27 Mar 2021 06:46:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Mar 2021 12:20:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed</generator>
         <language>en</language>
@@ -36,7 +36,7 @@
 </tr>
 <tr>
 <td align="left">Switch Clipboard</td>
-<td align="left">⇧Shift + Tab</td>
+<td align="left">⌥Option + Tab</td>
 <td align="left">YES</td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@
 <td align="left">NO</td>
 </tr>
 <tr>
-<td align="left">Svae to File</td>
+<td align="left">Save to File</td>
 <td align="left">⌘Command + S</td>
 <td align="left">NO</td>
 </tr>
