@@ -12,14 +12,14 @@ category: info
 | :---------------------- | :------------------- |:------------- |
 | Show Pastory            | ⌥Option + Space      | YES           |
 | Quick Paste             | ⌘Command + 1...9.0   | YES           |
-| Switch Clipboard        | ⇧Shift + Tab         | YES           |
+| Switch Clipboard        | ⌥Option + Tab         | YES           |
 | Paste                   | Enter                | NO            |
 | Paste as Plain Text     | ⇧Shift + Enter       | YES           |
 | Copy                    | ⌘Command + C         | NO            |
 | Cut                     | ⌘Command + X         | NO            |
 | Delete                  | ⌃Control + Delete    | NO            |
 | Move to First           | ⌃Control + F         | NO            |
-| Svae to File            | ⌘Command + S         | NO            |
+| Save to File            | ⌘Command + S         | NO            |
 | Add New Clipboard       | ⌘Command + A         | NO            |
 | Select First Item       | ⌘Command + UpArrow   | NO            |
 | Select Last Item        | ⌘Command + DownArrow | NO            |
