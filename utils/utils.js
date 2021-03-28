@@ -3,7 +3,7 @@ function formatDate(date) {
         year: "numeric", month: "long", day: "numeric",
         hour: "numeric", minute: "numeric"
     };
-    return new Date(date).toLocaleDateString("en-GB", options);
+    return new Date(date).toLocaleDateString("en-US", options);
 }
 
 export default {
