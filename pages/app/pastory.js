@@ -26,7 +26,7 @@ export default function Pastory() {
         lastSelectedItem.style.color = '#999'
         currentSelectedItem.style.color = '#000'
         imageElement.style.backgroundImage = "url('/images/pastory/" + imageName + ".webp')"
-        currentSelectedItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' })
+        currentSelectedItem.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'center'})
     }
     return (
         <main>
@@ -40,8 +40,10 @@ export default function Pastory() {
                          height='120px'/>
                     <h1><span id='text_yellow_underline'>Pastory</span></h1>
                     <p>A new way to manage your clipboard history.</p>
-                    <img className={styles.download_from_mac_app_store} src='/images/download_from_mac_app_store.svg'
-                         alt='Download from mac app store' width='180px'/>
+                    <Link href='https://apps.apple.com/us/app/pastory/id1560463189'>
+                        <img className={styles.download_from_mac_app_store}
+                             src='/images/download_from_mac_app_store.svg'
+                             alt='Download from mac app store' width='180px'/></Link>
                     <span className={styles.info}>Require macOS 10.14 or later</span>
                 </div>
             </div>
@@ -50,7 +52,9 @@ export default function Pastory() {
             </div>
             <div className={`${styles.section3} ${styles.section}`}>
                 <ul>
-                    <li id="search_command_img" onClick={section3Click} className={styles.selected_indicator}>Search<br/> Filter</li>
+                    <li id="search_command_img" onClick={section3Click}
+                        className={styles.selected_indicator}>Search<br/> Filter
+                    </li>
                     <li id="quick_switch_pasteboard_img" onClick={section3Click} className={styles.indicator}>Quick
                         Switch<br/> Clipboard
                     </li>

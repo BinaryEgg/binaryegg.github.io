@@ -22,9 +22,11 @@ export default function Home() {
                                  width='120px' height='120px'/>
                             <h1><span id="text_yellow_underline">Pastory</span></h1>
                             <p>A new way to manage your clipboard history.</p>
-                            <img className={pastoryStyles.download_from_mac_app_store}
-                                 src='/images/download_from_mac_app_store.svg' alt='Download from mac app store'
-                                 width='180px'/>
+                            <Link href='https://apps.apple.com/us/app/pastory/id1560463189'>
+                                <img className={pastoryStyles.download_from_mac_app_store}
+                                     src='/images/download_from_mac_app_store.svg'
+                                     alt='Download from mac app store'
+                                     width='180px'/></Link>
                             <span className={pastoryStyles.info}>Require macOS 10.14 or later</span>
                         </div>
                     </div>
