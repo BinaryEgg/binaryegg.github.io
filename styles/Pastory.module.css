@@ -190,14 +190,6 @@
         max-width: 100%;
     }
 
-    .download_from_mac_app_store {
-        display: none;
-    }
-
-    .info {
-        margin-top: 10px;
-    }
-
     .section3 {
         flex-direction: column;
         justify-content: left;
