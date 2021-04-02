@@ -22,6 +22,11 @@ export default function Home() {
                                  width='120px' height='120px'/>
                             <h1><span id="text_yellow_underline">Pastory</span></h1>
                             <p>A new way to manage your clipboard history.</p>
+                            <a className={pastoryStyles.product_hunt}
+                               href="https://www.producthunt.com/posts/pastory?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pastory"
+                               target="_blank"><img
+                                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290053&theme=light"
+                                alt="Pastory - Clipboard History Manager | Product Hunt"/></a>
                             <Link href='https://apps.apple.com/us/app/pastory/id1560463189'>
                                 <img className={pastoryStyles.download_from_mac_app_store}
                                      src='/images/download_from_mac_app_store.svg'

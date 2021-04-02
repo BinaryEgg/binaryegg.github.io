@@ -35,15 +35,20 @@ export default function Pastory() {
             }`}</style>
             <CustomHead title="Pastory"/>
             <div className={styles.section1_bg}>
-                <div className={`${styles.section1} ${styles.pastory_container}`}>
-                    <img src='/images/pastory/icon.webp' alt='Pastory Icon' className={styles.icon} width='120px'
+                <div className={`${styles.section1}`}>
+                    <img src='/images/pastory/icon.webp' alt='Pastory Icon' width='120px'
                          height='120px'/>
                     <h1><span id='text_yellow_underline'>Pastory</span></h1>
                     <p>A new way to manage your clipboard history.</p>
+                    <a className={styles.product_hunt}
+                       href="https://www.producthunt.com/posts/pastory?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pastory"
+                       target="_blank"><img
+                        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290053&theme=light"
+                        alt="Pastory - Clipboard History Manager | Product Hunt"/></a>
                     <Link href='https://apps.apple.com/us/app/pastory/id1560463189'>
                         <img className={styles.download_from_mac_app_store}
                              src='/images/download_from_mac_app_store.svg'
-                             alt='Download from mac app store' width='180px'/></Link>
+                             alt='Download from mac app store'/></Link>
                     <span className={styles.info}>Require macOS 10.14 or later</span>
                 </div>
             </div>

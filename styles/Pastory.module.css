@@ -30,10 +30,21 @@
     margin-top: 15px;
 }
 
-.download_from_mac_app_store {
+.product_hunt {
     margin-top: 30px;
+}
+
+.product_hunt img {
+    width: 250px;
+    height: 54px;
+}
+
+.download_from_mac_app_store {
+    margin-top: 20px;
     margin-bottom: 15px;
     cursor: pointer;
+    width: 210px;
+    height: auto;
 }
 
 .info {
