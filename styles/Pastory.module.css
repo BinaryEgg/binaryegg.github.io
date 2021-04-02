@@ -32,11 +32,9 @@
 
 .product_hunt {
     margin-top: 30px;
-}
-
-.product_hunt img {
     width: 250px;
     height: 54px;
+    cursor: pointer;
 }
 
 .download_from_mac_app_store {
