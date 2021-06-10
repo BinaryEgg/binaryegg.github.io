@@ -8,5 +8,14 @@
             <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
             <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory-v1.1.0.zip" sparkle:version="21" sparkle:shortVersionString="1.1.0" length="11084215" type="application/octet-stream" sparkle:edSignature="NAyxXYJkuASJv+qg6jPG9ZdMWFEpgyRc91h0lFW9i/HAiw/vrSiJzAaJvPR5jBrJyWiPw9h9ZUuVzXe8158ICA=="/>
         </item>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Thu, 10 Jun 2021 22:38:05 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory-v1.1.1.zip" sparkle:version="22" sparkle:shortVersionString="1.1.1" length="11084677" type="application/octet-stream" sparkle:edSignature="hsHVjAP2N698be/KpgRS3eSkc8JoAwmzeKDMfRmt1ipYxFzH72qqFwQEScem+BURWfYRWuaXEXtC7TSh9vh0Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory22-21.delta" sparkle:version="22" sparkle:shortVersionString="1.1.1" sparkle:deltaFrom="21" length="154199" type="application/octet-stream" sparkle:edSignature="jsb/JGBsqAZt7fopB+vsyAa+4Uu8FeplivV50wRuXyo0cCpTjdZXIFcqY61+vSVURy/oHspdaIjuDTKdanx2Aw=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
