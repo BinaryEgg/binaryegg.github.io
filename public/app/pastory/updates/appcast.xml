@@ -17,5 +17,15 @@
                 <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory22-21.delta" sparkle:version="22" sparkle:shortVersionString="1.1.1" sparkle:deltaFrom="21" length="154199" type="application/octet-stream" sparkle:edSignature="jsb/JGBsqAZt7fopB+vsyAa+4Uu8FeplivV50wRuXyo0cCpTjdZXIFcqY61+vSVURy/oHspdaIjuDTKdanx2Aw=="/>
             </sparkle:deltas>
         </item>
+        <item>
+            <title>1.1.2</title>
+            <pubDate>Sat, 12 Jun 2021 01:03:09 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory-v1.1.2.zip" sparkle:version="23" sparkle:shortVersionString="1.1.2" length="11083839" type="application/octet-stream" sparkle:edSignature="UYU96jfszy6/FYKycL9iLAEZw9hTurdCJWXadYaxW7ajkbR8jP8Sv9fo1jZOTdL6MW2NJd7c68pwtQnKJVngBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory23-22.delta" sparkle:version="23" sparkle:shortVersionString="1.1.2" sparkle:deltaFrom="22" length="243289" type="application/octet-stream" sparkle:edSignature="zfd+2H16ynJArp/zqS1k+Nd7nP/12QwjWMvVcviIWjpwl9SehAf1Wnfz0sxdQPvSapVLWbGpqS1w9+PBZ+JsBw=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory23-21.delta" sparkle:version="23" sparkle:shortVersionString="1.1.2" sparkle:deltaFrom="21" length="255676" type="application/octet-stream" sparkle:edSignature="wzKUHDVX675YXxU5bPbqew9mGYyuCIHx9fS9R3iA1GfMkuvlw0kA5435B4Q4dv5S3KkAdlOUGyquUlii/UbzDQ=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
