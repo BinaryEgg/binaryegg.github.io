@@ -38,5 +38,17 @@
                 <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory24-21.delta" sparkle:version="24" sparkle:shortVersionString="1.1.3b" sparkle:deltaFrom="21" length="467547" type="application/octet-stream" sparkle:edSignature="W1HK8RqAS5OyQsYtmW7u5ZsSvYxyM/Za6djQgPsTmXnoDcp5XfvFNdEB7V8S0AJsRElAEKysWfffoTjsh/0FDw=="/>
             </sparkle:deltas>
         </item>
+        <item>
+            <title>1.1.4b</title>
+            <pubDate>Sun, 11 Jul 2021 18:43:05 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory-v1.1.4b.zip" sparkle:version="25" sparkle:shortVersionString="1.1.4b" length="11091655" type="application/octet-stream" sparkle:edSignature="jRAw3ZrhiZX7YN4GVG+gI+xE6vdUcIV6wWLq7Z15czyFfNv0yycsTw3HWRdJBQkECtQtOAS3JoHEx4MJnfjSBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory25-24.delta" sparkle:version="25" sparkle:shortVersionString="1.1.4b" sparkle:deltaFrom="24" length="227746" type="application/octet-stream" sparkle:edSignature="Ks4KKIrF1ZME9kqFp/15W7UGGeJ3jMYqWj3Int646JQCA5NO6kGMDPuAIUpTt6cxfzurLu9bE3HmALxry5hwDw=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory25-23.delta" sparkle:version="25" sparkle:shortVersionString="1.1.4b" sparkle:deltaFrom="23" length="450735" type="application/octet-stream" sparkle:edSignature="lqfGK4GELss2fYkzm9AhaQzM2EWUXiZl9ZX/fPAMK222dyrLS9/AXakeYmDBrbLdr23rGTs9znrTT49JOSEMAQ=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory25-22.delta" sparkle:version="25" sparkle:shortVersionString="1.1.4b" sparkle:deltaFrom="22" length="446016" type="application/octet-stream" sparkle:edSignature="Q/bNnSbwFkUkBCYihj8LkeY1+D/cAZhMJRAOc+vTiDG0f02/hX5IWiNtD61eyTEOMC853yfbWudWydh39rlGDg=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory25-21.delta" sparkle:version="25" sparkle:shortVersionString="1.1.4b" sparkle:deltaFrom="21" length="473936" type="application/octet-stream" sparkle:edSignature="flIf6yUKO/FzVLJYDNAAJEUs7RwF30i9c8pO1vczIDMKfbtSV63LZJXBAKQPvQWlWJUZHgckJcCh6EzxI2BNCg=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
