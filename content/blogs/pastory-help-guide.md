@@ -12,7 +12,7 @@ category: info
 | :---------------------- | :------------------- |:------------- |
 | Show Pastory            | ⌥Option + Space      | YES           |
 | Quick Paste             | ⌘Command + 1...9.0   | YES           |
-| Switch Clipboard        | ⌥Option + Tab         | YES           |
+| Switch Clipboard        | ⌥Option + Tab        | YES           |
 | Paste                   | Enter                | NO            |
 | Paste as Plain Text     | ⇧Shift + Enter       | YES           |
 | Copy                    | ⌘Command + C         | NO            |
@@ -20,7 +20,6 @@ category: info
 | Delete                  | ⌃Control + Delete    | NO            |
 | Move to First           | ⌃Control + F         | NO            |
 | Save to File            | ⌘Command + S         | NO            |
-| Add New Clipboard       | ⌘Command + A         | NO            |
 | Select First Item       | ⌘Command + UpArrow   | NO            |
 | Select Last Item        | ⌘Command + DownArrow | NO            |
 
