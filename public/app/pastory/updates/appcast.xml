@@ -50,5 +50,18 @@
                 <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory25-21.delta" sparkle:version="25" sparkle:shortVersionString="1.1.4b" sparkle:deltaFrom="21" length="473936" type="application/octet-stream" sparkle:edSignature="flIf6yUKO/FzVLJYDNAAJEUs7RwF30i9c8pO1vczIDMKfbtSV63LZJXBAKQPvQWlWJUZHgckJcCh6EzxI2BNCg=="/>
             </sparkle:deltas>
         </item>
+        <item>
+            <title>1.1.5b</title>
+            <pubDate>Sun, 07 Nov 2021 10:07:58 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory-v1.1.5b.zip" sparkle:version="26" sparkle:shortVersionString="1.1.5b" length="10831350" type="application/octet-stream" sparkle:edSignature="HE00MFz9yJI3kPtY+qdoSlrMBKv1JeWS1GkBqOZ7IhKmRGWmn878LYB/7E5/7dfK3EGVEpYedr8MzdRkf9OOAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory26-25.delta" sparkle:version="26" sparkle:shortVersionString="1.1.5b" sparkle:deltaFrom="25" length="1292402" type="application/octet-stream" sparkle:edSignature="W3OUppB/SzfwMnQO8gUu/kS+66uIcvwk2a/O91qNzqMp79fz2cpPnxwXWLg+qsfx2UB06mPimxIhYIulPVttBQ=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory26-24.delta" sparkle:version="26" sparkle:shortVersionString="1.1.5b" sparkle:deltaFrom="24" length="1291777" type="application/octet-stream" sparkle:edSignature="OTPTJw8Q/lkUzYjOVVvYR1uQQ3Yqcv8iM3l8aPSDbBWwiVWos9YS9wra/jKNtYivbu2UKGpcuStjif5kqd8SAQ=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory26-23.delta" sparkle:version="26" sparkle:shortVersionString="1.1.5b" sparkle:deltaFrom="23" length="1345518" type="application/octet-stream" sparkle:edSignature="UmJgxaRyKETCyUygTRsi6XkNPQigLCO9tuGM91cHWnPk3QfKJZfVqDJGgnaMCQpDVQzwyWLOM4bKZNklsemHCw=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory26-22.delta" sparkle:version="26" sparkle:shortVersionString="1.1.5b" sparkle:deltaFrom="22" length="1345092" type="application/octet-stream" sparkle:edSignature="OrWQwE0vDTMjPhdBj0XHX38KhnaUiKQBNACiTAproeXQCbgysZooChUrJVAD5H7oNL/HoFQY2iz+C69QTvELBQ=="/>
+                <enclosure url="https://binaryegg.com/app/pastory/updates/Pastory26-21.delta" sparkle:version="26" sparkle:shortVersionString="1.1.5b" sparkle:deltaFrom="21" length="1352102" type="application/octet-stream" sparkle:edSignature="ukxHlFUvb4x+GPWakJYZKawSCBFN1YeER47CXxvTUEtBDEqbsxDVn++pYZKgBTgPX183/24mCgi+r6f0Gr7ZCw=="/>
+            </sparkle:deltas>
+        </item>
     </channel>
 </rss>
