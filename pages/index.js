@@ -33,6 +33,9 @@ export default function Home() {
                                      src='/images/download_from_mac_app_store.svg'
                                      alt='Download from mac app store'
                                      width='180px'/></Link>
+                            <Link href='/app/pastory/updates/Pastory-latest.zip'>
+                                <span className={pastoryStyles.download_directly}>Dwonload</span>
+                            </Link>
                             <span className={pastoryStyles.info}>Require macOS 10.14 or later</span>
                         </div>
                     </div>

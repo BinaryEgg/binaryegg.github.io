@@ -26,55 +26,58 @@ export default function Pastory() {
         lastSelectedItem.style.color = '#999'
         currentSelectedItem.style.color = '#000'
         imageElement.style.backgroundImage = "url('/images/pastory/" + imageName + ".webp')"
-        currentSelectedItem.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'center'})
+        currentSelectedItem.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' })
     }
     return (
         <main>
             <style global jsx>{`body {
               background-color: #333;
             }`}</style>
-            <CustomHead title="Pastory"/>
+            <CustomHead title="Pastory" />
             <div className={styles.section1_bg}>
                 <div className={`${styles.section1}`}>
                     <img src='/images/pastory/icon.webp' alt='Pastory Icon' width='120px'
-                         height='120px'/>
+                        height='120px' />
                     <h1><span id='text_yellow_underline'>Pastory</span></h1>
                     <p>A new way to manage your clipboard history.</p>
                     <Link
                         href="https://www.producthunt.com/posts/pastory?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pastory"
                         target="_blank">
                         <img className={styles.product_hunt}
-                             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290053&theme=light"
-                             alt="Pastory - Clipboard History Manager | Product Hunt"/></Link>
+                            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290053&theme=light"
+                            alt="Pastory - Clipboard History Manager | Product Hunt" /></Link>
                     <Link href='https://apps.apple.com/us/app/pastory/id1560463189'>
                         <img className={styles.download_from_mac_app_store}
-                             src='/images/download_from_mac_app_store.svg'
-                             alt='Download from mac app store'/></Link>
+                            src='/images/download_from_mac_app_store.svg'
+                            alt='Download from mac app store' /></Link>
+                    <Link href='/app/pastory/updates/Pastory-latest.zip'>
+                        <span className={styles.download_directly}>Dwonload</span>
+                    </Link>
                     <span className={styles.info}>Require macOS 10.14 or later</span>
                 </div>
             </div>
             <div className={`${styles.section2} ${styles.section}`}>
-                <img src='/images/pastory/section2_bg.webp'/>
+                <img src='/images/pastory/section2_bg.webp' />
             </div>
             <div className={`${styles.section3} ${styles.section}`}>
                 <ul>
                     <li id="search_command_img" onClick={section3Click}
-                        className={styles.selected_indicator}>Search<br/> Filter
+                        className={styles.selected_indicator}>Search<br /> Filter
                     </li>
                     <li id="quick_switch_pasteboard_img" onClick={section3Click} className={styles.indicator}>Quick
-                        Switch<br/> Clipboard
+                        Switch<br /> Clipboard
                     </li>
                     <li id="move_to_clipboard" onClick={section3Click}
-                        className={styles.indicator}>Move to Another<br/> Clipboard
+                        className={styles.indicator}>Move to Another<br /> Clipboard
                     </li>
                     <li id="select_multiple_items_img" onClick={section3Click} className={styles.indicator}>
-                        Multiple Items<br/> Support
+                        Multiple Items<br /> Support
                     </li>
                 </ul>
-                <div id={section3ImgId}/>
+                <div id={section3ImgId} />
             </div>
             <div className={`${styles.section3} ${styles.section4} ${styles.section}`}>
-                <div id={section4ImgId}/>
+                <div id={section4ImgId} />
                 <ul>
                     <li id="plain_text_img" onClick={section4Click} className={styles.selected_indicator}>Plain Text
                     </li>
@@ -124,7 +127,7 @@ export default function Pastory() {
             <div className={`${styles.author_container} ${styles.section}`}>
                 <p>Made by <Link href='/'><a id='text_yellow_underline'>BinaryEgg</a></Link></p>
             </div>
-            <Foot/>
+            <Foot />
         </main>
     )
 }

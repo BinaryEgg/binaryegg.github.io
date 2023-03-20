@@ -39,13 +39,29 @@
 
 .download_from_mac_app_store {
     margin-top: 20px;
-    margin-bottom: 15px;
     cursor: pointer;
     width: 215px;
     height: auto;
+    display: none;
+}
+
+.download_directly {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 54px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .info {
+    margin-top: 15px;
     font-weight: normal;
     font-size: 14px;
     color: #333333;
