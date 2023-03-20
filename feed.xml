@@ -4,7 +4,7 @@
         <title>BinaryEgg - Blog RSS Feed</title>
         <link>https://binaryegg.com/feed.xml</link>
         <description>BinaryEgg Blog</description>
-        <lastBuildDate>Sun, 07 Nov 2021 02:43:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Mar 2023 13:58:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Next.js using Feed</generator>
         <language>en</language>
@@ -91,7 +91,6 @@
 <p>It allows Pastory to paste content directly to current app.</p>
 <h2>How to Turn On or Turn Off Accessibility?</h2>
 <p>If you are using Pastory, you may see this below.</p>
-<img src="https://binaryegg.com/images/pastory/turn_on_accessibility.webp" width="300"/>
 <p>Click Turn On Accessibility to allow Pastory Paste directly to current app.</p>
 <p>Steps to turn on accessibility:</p>
 <ol>
