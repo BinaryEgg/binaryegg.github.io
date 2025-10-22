@@ -25,6 +25,7 @@ jobs:
       - run: npm run deploy
         env:
           CI: true
+          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
